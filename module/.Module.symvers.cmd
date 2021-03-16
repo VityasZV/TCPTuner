@@ -1,0 +1,1 @@
+cmd_/home/parallels/Documents/TCPTuner/module/Module.symvers := sed 's/ko$$/o/' /home/parallels/Documents/TCPTuner/module/modules.order | scripts/mod/modpost  -a   -o /home/parallels/Documents/TCPTuner/module/Module.symvers -e -i Module.symvers   -T -

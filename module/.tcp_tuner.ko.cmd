@@ -1,0 +1,1 @@
+cmd_/home/parallels/Documents/TCPTuner/module/tcp_tuner.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id=sha1  -T ./scripts/module-common.lds -o /home/parallels/Documents/TCPTuner/module/tcp_tuner.ko /home/parallels/Documents/TCPTuner/module/tcp_tuner.o /home/parallels/Documents/TCPTuner/module/tcp_tuner.mod.o;  true

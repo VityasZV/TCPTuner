@@ -1,0 +1,1 @@
+cmd_/home/parallels/Documents/TCPTuner/module/modules.order := {   echo /home/parallels/Documents/TCPTuner/module/tcp_tuner.ko; :; } | awk '!x[$$0]++' - > /home/parallels/Documents/TCPTuner/module/modules.order
